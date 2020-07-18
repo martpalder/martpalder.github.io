@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Raycaster</title>
+</head>
+
+<body>
+	<canvas style="border:1px solid #000000;" onmouseover="mouseMoveHandler(event)"></canvas>
+	<event onkeydown="keyDownHandler(event)" onkeyup="keyUpHandler(event)"></event>
+	<div id="stats">
+		<p id="fps">FPS:&ensp;</p>
+		<p id="frameTime">Frame Time:&ensp;</p>
+		<p id="pos">Position:&ensp;</p>
+		<p id="mouse">Mouse:&ensp;</p>
+	</div>
+	<script src="./js/map.js"></script>
+	<script src="./js/player.js"></script>
+	<script src="./js/input.js"></script>
+	<script src="./js/graphics.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
